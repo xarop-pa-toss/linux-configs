@@ -1,0 +1,32 @@
+theme = "rose_pine_moon"
+
+[editor]
+line-number = "relative"
+cursorline = true
+mouse= false
+color-modes = true
+true-color = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+[editor.statusline]
+left = ["mode", "spinner", "file-name", "file-modification-indicator"]
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+[keys.insert]
+j = { k = "normal_mode"}
+
+[keys.normal]
+"ret" = "goto_word"
+
+[keys.normal."space"]
+o = "file_picker_in_current_buffer_directory"
+
