@@ -1,0 +1,13 @@
+git
+github-cli
+zsh
+helix
+waypaper
+swww
+hyprland
+hyprlock
+hypridle
+hyprctl
+waybar
+rofi
+alacritty
