@@ -45,7 +45,7 @@ yay -S --needed --noconfirm - < packages/aur.txt
 
 echo "Linking dotfiles..."
 
-DOTFILES_DIR="$(pwd)"
+DOTFILES_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 ln -sf "$DOTFILES_DIR/hypr" ~/.config/hypr
 ln -sf "$DOTFILES_DIR/helix" ~/.config/helix
