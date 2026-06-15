@@ -41,7 +41,7 @@ if ! command -v yay &> /dev/null; then
     (cd /tmp/yay && makepkg -si --noconfirm)
 fi
 
-yay -S --needed --noconfirm - < packages/aur.txt
+# yay -S --needed --noconfirm - < packages/aur.txt
 
 echo "Linking dotfiles..."
 
