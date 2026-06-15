@@ -30,7 +30,7 @@ else
 fi
 
 echo "Installing official packages..."
-sudo pacman -S --needed --noconfirm - < packages/base.txt
+sudo yay -S --needed --noconfirm - < packages/base.txt
 # sudo pacman -S --needed --noconfirm - < packages/hyprland.txt
 # sudo pacman -S --needed --noconfirm - < packages/tools.txt
 
